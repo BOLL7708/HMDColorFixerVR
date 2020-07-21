@@ -1,0 +1,3 @@
+[submodule "HMDColorFixerVR/EasyOpenVR"]
+	path = HMDColorFixerVR/EasyOpenVR
+	url = https://github.com/BOLL7708/EasyOpenVR.git

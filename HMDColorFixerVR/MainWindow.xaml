@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HMDColorFixerVR"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="119.055" Width="316.178">
     <Grid>
-        <Slider x:Name="SliderR" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="285" Maximum="200" Value="100" ValueChanged="SliderR_ValueChanged" MouseUp="SliderR_MouseUp"/>
-        <Slider x:Name="SliderG" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="285" Maximum="200" Value="100"/>
-        <Slider x:Name="SliderB" HorizontalAlignment="Left" Margin="10,56,0,0" VerticalAlignment="Top" Width="285" Maximum="200" Value="100"/>
+        <Slider x:Name="SliderR" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="285" Maximum="200" Value="100" ValueChanged="SliderR_ValueChanged"/>
+        <Slider x:Name="SliderG" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="285" Maximum="200" Value="100" ValueChanged="SliderG_ValueChanged"/>
+        <Slider x:Name="SliderB" HorizontalAlignment="Left" Margin="10,56,0,0" VerticalAlignment="Top" Width="285" Maximum="200" Value="100" ValueChanged="SliderB_ValueChanged"/>
 
     </Grid>
 </Window>
